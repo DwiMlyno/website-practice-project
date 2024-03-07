@@ -1,0 +1,122 @@
+/* .barang {
+    background-color:brown;
+}
+.card-body {
+    background-color: brown;
+} */
+/* .search {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 10px;
+    transition-duration: 500ms;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 15px;
+    border: ipx solid white;
+    overflow: hidden;
+    background-image: url(/gambar/search.png);
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: 45% 50%;
+}
+.search:hover {
+    border: 1px solid red;
+}
+.search:focus {
+    width: 200px;
+    cursor: text;
+    padding-left: 40px;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid red;
+    background-image: url(/gambar/search.png) no-repeat;
+    background-size: 22px;
+    background-position: 10px 50%;
+} */
+/* .diskon {
+    position: center;
+    width: 900px;
+    height: 15px;
+} */
+.logo {
+    font-family: 'Pacifico';
+    color:  yellow;
+    animation: neon 1s infinite;
+}
+@keyframes neon {
+    0%, 39%, 41%, 59%, 61%, 100%{
+        text-shadow: 
+        white 0 0 12px,
+        white 0 0 24px,
+        blue 0 0 36px;
+    }
+
+    40%, 60% {
+        text-shadow: none;
+    }
+
+}
+.fotoproduk {
+    text-align:justify;
+    width:75%; 
+    padding:8px;
+    float:left; 
+    margin:0 8px 4px 0
+}
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+  }
+.left-column {
+    width: 65%;
+    position: relative;
+  }
+.right-column {
+    width: 35%;
+    margin-top: 60px;
+  }
+  .product-description {
+    border-bottom: 1px solid #E1E8EE;
+    margin-bottom: 20px;
+  }
+  .product-description h2 {
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+  .product-description p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+}
+.row-produk {
+    background-color: silver; 
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+.garis {
+    border-bottom: 2px solid #2d2d2d;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.btn-custom {
+    padding: 15px;
+    font-size: 14px;
+}
+.textcenter {
+    text-align: center;
+}
